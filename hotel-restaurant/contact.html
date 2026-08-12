@@ -1,0 +1,107 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="assets/icons/logo-mark.svg"><meta name="description" content="Tell us what you are planning. We will take care of the rest."><title>Contact & Booking | Kora House</title>
+<link rel="stylesheet" href="css/reset.css"><link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/global.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/pages.css"><link rel="stylesheet" href="css/responsive.css"></head><body>
+<a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container"><nav class="navbar" aria-label="Primary"><a class="logo" href="index.html"><span class="logo-mark">K</span>Kora House</a>
+<div class="nav-links">
+<a class="active" href="index.html" data-en="Home" data-am="መነሻ">Home</a>
+<a href="rooms.html" data-en="Rooms" data-am="ክፍሎች">Rooms</a>
+<a href="restaurant.html" data-en="Restaurant" data-am="ሬስቶራንት">Restaurant</a>
+<a href="menu.html" data-en="Menu" data-am="ምናሌ">Menu</a>
+<a href="experiences.html" data-en="Experiences" data-am="ልምዶች">Experiences</a>
+<a href="events.html" data-en="Events" data-am="ክስተቶች">Events</a>
+<a href="gallery.html" data-en="Gallery" data-am="ፎቶዎች">Gallery</a>
+<a href="about.html" data-en="About" data-am="ስለ እኛ">About</a>
+<a href="contact.html" data-en="Contact" data-am="ያግኙን">Contact</a>
+</div>
+<div class="nav-actions">
+<button class="lang-switch" id="langToggle" type="button" onclick="toggleLanguage()">አማርኛ</button>
+<a class="btn btn--primary" href="contact.html#booking" data-en="Book Your Stay" data-am="ይያዙ">Book Your Stay</a>
+<button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+</div>
+<div class="-menu">
+<a href="index.html" ></a>
+<a href="rooms.html" ></a>
+<a href="restaurant.html" ></a>
+<a href="menu.html" ></a>
+<a href="experiences.html" ></a>
+<a href="events.html" ></a>
+<a href="gallery.html" ></a>
+<a href="about.html" ></a>
+<a href="contact.html" ></a>
+</div></nav></div></header> <main id="main"><section class="page-hero"><div class="container"><div class="eyebrow" data-en="Kora House · Addis Ababa" data-am="ኮራ ሀውስ · አዲስ አበባ">Kora House · Addis Ababa</div><h1 class="display" data-en="Contact & Booking" data-am="ያግኙን እና ቦታ ያስይዙ">Contact & Booking</h1><p data-en="Tell us what you are planning. We will take care of the rest." data-am="ምን ለማቀድ እንዳሰቡ ይንገሩን።ቀቀረውን እኛ እንከባከባለን።">Tell us what you are planning. We will take care of the rest.</p></div></section>
+<section class="page-section" id="booking"><div class="container grid-2"><div><div class="eyebrow" data-en="Reservations" data-am="ቦታ ማስያዣ">Reservations</div><h2 data-en="Let's plan your stay." data-am="ቆይታዎን እናቅድ።">Let's plan your stay.</h2><p class="lead mt-20" data-en="Send your preferred dates and we'll follow up with availability and room recommendations." data-am="የሚፈልጉትን ቀናት ይላኩልን፤ እኛም ስለ ክፍሎች መኖር እና የክፍል ምርጫዎች እናሳውቆታለን።">Send your preferred dates and we'll follow up with availability and room recommendations.</p><div class="contact-info mt-44"><div class="contact-item"><div>✦</div><div><b data-en="Address" data-am="አድራሻ">Address</b><span data-en="Bole, Addis Ababa, Ethiopia" data-am="ቦሌ፣ አዲስ አበባ፣ ኢትዮጵያ">Bole, Addis Ababa, Ethiopia</span></div></div><div class="contact-item"><div>✦</div><div><b data-en="Phone" data-am="ስልክ">Phone</b><span>+251 11 555 0188</span></div></div><div class="contact-item"><div>✦</div><div><b data-en="Email" data-am="ኢሜል">Email</b><span>stay@korahouse.example</span></div></div></div></div>
+<form class="card form-card" data-validate-form data-success="Thank you. Your stay request is ready for our reservations team." data-am-success="አመሰግናለን። የቆይታ ጥያቄዎ ለቦታ ማስያዣ ቡድናችን ደርሷል።"><div class="form-grid">
+<div class="field"><label for="name" data-en="Full name" data-am="ሙሉ ስም">Full name</label><input id="name" name="name" required autocomplete="name"></div>
+<div class="field"><label for="email" data-en="Email" data-am="ኢሜል">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+<div class="field"><label for="checkin" data-en="Check-in" data-am="መገቢያ ቀን (Check-in)">Check-in</label><input id="checkin" name="checkin" type="date" required></div>
+<div class="field"><label for="checkout" data-en="Check-out" data-am="መውጫ ቀን (Check-out)">Check-out</label><input id="checkout" name="checkout" type="date" required></div>
+<div class="field"><label data-en="Guests" data-am="እንግዶች">Guests</label><div class="card" style="display:flex;align-items:center;justify-content:space-between;padding:4px 8px" data-guest-selector><button type="button" data-minus aria-label="Decrease guests">−</button><input name="guests" value="2" min="1" max="10" type="number" style="border:0;text-align:center;width:80px;background:transparent"><button type="button" data-plus aria-label="Increase guests">＋</button></div></div>
+<div class="field"><label for="room" data-en="Room type" data-am="የክፍል ዓይነት">Room type</label><select id="room" name="room"><option data-en="Any room" data-am="ማንኛውም ክፍል">Any room</option><option data-en="Deluxe" data-am="ዴሉክስ (Deluxe)">Deluxe</option><option data-en="Suite" data-am="ስዊት (Suite)">Suite</option><option data-en="Villa" data-am="ቪላ (Villa)">Villa</option></select></div>
+<div class="field full"><label for="message" data-en="Notes" data-am="ማስታወሻዎች">Notes</label><textarea id="message" name="message" placeholder="Airport transfer, celebration, dietary needs..." data-en-placeholder="Airport transfer, celebration, dietary needs..." data-am-placeholder="የኤርፖርት ትራንስፖርት፣ በዓል፣ የምግብ ፍላጎት..."></textarea></div>
+<div class="field full"><button class="btn btn--primary" type="submit" data-en="Request availability" data-am="ክፍል መኖሩን ይጠይቁ">Request availability</button></div></div><div class="form-message" role="status"></div></form></div></section>
+<section class="section section--tight" id="reservation"><div class="container grid-2"><div><div class="eyebrow" data-en="Restaurant reservation" data-am="የሬስቶራንት ቦታ ማስያዝ">Restaurant reservation</div><h2 data-en="Reserve a table." data-am="ጠረጴዛ ያስይዙ።">Reserve a table.</h2><p class="lead mt-20" data-en="For groups of 8 or more, use the event enquiry below so our team can prepare a tailored experience." data-am="ከ 8 ወይም ከዚያ በላይ ለሆኑ ሰዎች፣ ቡድናችን የተለየ ሁኔታ እንዲያዘጋጅ ከዚህ በታች ያለውን የክስተት ጥያቄ ይጠቀሙ።">For groups of 8 or more, use the event enquiry below so our team can prepare a tailored experience.</p></div><form class="card form-card" data-validate-form data-success="Table request received. We’ll confirm your reservation shortly." data-am-success="የጠረጴዛ ጥያቄዎ ደርሷል። በቅርቡ እናረጋግጥልዎታለን።"><div class="form-grid">
+<div class="field"><label data-en="Name" data-am="ስም">Name</label><input required name="name"></div>
+<div class="field"><label data-en="Email" data-am="ኢሜል">Email</label><input required type="email" name="email"></div>
+<div class="field"><label data-en="Date" data-am="ቀን">Date</label><input required type="date" name="date"></div>
+<div class="field"><label data-en="Time" data-am="ሰዓት">Time</label><input required type="time" name="time"></div>
+<div class="field full"><label data-en="Party size" data-am="የሰዎች ብዛት">Party size</label><input required type="number" min="1" max="20" name="party" value="2"></div>
+<div class="field full"><button class="btn btn--primary" data-en="Request table" data-am="ጠረጴዛ ይጠይቁ">Request table</button></div></div><div class="form-message" role="status"></div></form></div></section>
+<section class="section section--tight" id="events"><div class="container"><div class="card form-card"><div class="section-head"><div><div class="eyebrow" data-en="Events" data-am="ክስተቶች">Events</div><h2 data-en="Tell us about your event." data-am="ስለ ዝግጅትዎ ይንገሩን።">Tell us about your event.</h2></div></div><form data-validate-form data-success="Event enquiry received. Our events team will contact you with next steps." data-am-success="የዝግጅት ጥያቄዎ ደርሷል። የዝግጅት ቡድናችን በቀጣይ እርምጃዎች ያነጋግዎታል።"><div class="form-grid">
+<div class="field"><label data-en="Name" data-am="ስም">Name</label><input required name="name"></div>
+<div class="field"><label data-en="Email" data-am="ኢሜል">Email</label><input required type="email" name="email"></div>
+<div class="field"><label data-en="Event date" data-am="የዝግጅቱ ቀን">Event date</label><input required type="date" name="eventdate"></div>
+<div class="field"><label data-en="Estimated guests" data-am="የሚገመቱ እንግዶች ብዛት">Estimated guests</label><input required type="number" min="2" max="300" name="guests"></div>
+<div class="field full"><label data-en="Event details" data-am="የዝግጅቱ ዝርዝር">Event details</label><textarea required name="details" placeholder="Wedding, dinner, retreat, launch, private celebration..." data-en-placeholder="Wedding, dinner, retreat, launch, private celebration..." data-am-placeholder="ሰርግ፣ እራት፣ መዝናኛ፣ የምርት ማስተዋወቂያ፣ የግል ድግስ..."></textarea></div>
+<div class="field full"><button class="btn btn--primary" data-en="Send enquiry" data-am="ጥያቄ ይላኩ">Send enquiry</button></div></div><div class="form-message" role="status"></div></form></div></div></section>
+</main>  <footer class="footer"><div class="container"><div class="footer-grid"><div><div class="logo">Kora House</div><p class="mt-20" data-en="Boutique hospitality with an Ethiopian heart." data-am="የኢትዮጵያ ፍቅር የተሞላበት የሆቴል እንክብካቤ።">Boutique hospitality with an Ethiopian heart.</p></div><div><h3 data-en="Explore" data-am="ይቃኙ">Explore</h3><ul><li><a href="rooms.html" data-en="Rooms & Suites" data-am="ክፍሎች እና ስዊቶች">Rooms & Suites</a></li><li><a href="restaurant.html" data-en="Restaurant" data-am="ሬስቶራንት">Restaurant</a></li><li><a href="experiences.html" data-en="Experiences" data-am="ልምዶች">Experiences</a></li><li><a href="events.html" data-en="Events & Weddings" data-am="ክስተቶች እና ሰርጎች">Events & Weddings</a></li></ul></div><div><h3 data-en="Visit" data-am="ይጎብኙን">Visit</h3><p data-en="Bole, Addis Ababa<br>Ethiopia" data-am="ቦሌ፣ አዲስ አበባ<br>ኢትዮጵያ">Bole, Addis Ababa<br>Ethiopia</p><p class="mt-20"><span data-en="Restaurant" data-am="ሬስቶራንት">Restaurant</span><br><span data-en="Daily · 7am–11pm" data-am="በየቀኑ · ጠዋት 11 - ማታ 5 ሰዓት">Daily · 7am–11pm</span></p></div><div><h3 data-en="Newsletter" data-am="ዜና መጽሔት">Newsletter</h3><p data-en="Seasonal stays, new menus, local stories." data-am="ወቅታዊ ቆይታዎች፣ አዳዲስ ምናሌዎች እና የአካባቢ ታሪኮች።">Seasonal stays, new menus, local stories.</p><form class="newsletter" data-validate-form data-success="You're on the list. Welcome to Kora." data-am-success="ዝርዝር ውስጥ ገብተዋል። እንኳን ወደ ኮራ በደህና መጡ።"><input required type="email" aria-label="Email address" placeholder="Your email" data-en-placeholder="Your email" data-am-placeholder="ኢሜልዎ"><button data-en="Join" data-am="ተቀላቀል">Join</button></form></div></div><div class="footer-bottom">
+    <span>© <span data-year></span> Kora House</span>
+    <span>
+        <a href="https://instagram.com/" target="_blank" rel="noopener" data-en="Instagram" data-am="ኢንስታግራም">Instagram</a> · 
+        <a href="https://facebook.com/" target="_blank" rel="noopener" data-en="Facebook" data-am="ፌስቡክ">Facebook</a> · 
+        <a href="https://wa.me/" target="_blank" rel="noopener" data-en="WhatsApp" data-am="ዋትስአፕ">WhatsApp</a>
+    </span>
+</div></div></footer>
+<div class="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Close image">×</button><img src="" alt=""></div>
+<script src="js/data.js"></script><script src="js/navigation.js"></script><script src="js/main.js"></script><script src="js/carousel.js"></script><script src="js/gallery.js"></script><script src="js/forms.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+    const savedLang = localStorage.getItem('kora_lang') || 'en';
+    if(savedLang === 'am') {
+        setLanguage('am');
+    }
+});
+
+function toggleLanguage() {
+    const currentLang = document.documentElement.getAttribute('lang') || 'en';
+    const newLang = currentLang === 'en' ? 'am' : 'en';
+    setLanguage(newLang);
+}
+
+function setLanguage(lang) {
+    document.documentElement.setAttribute('lang', lang);
+    localStorage.setItem('kora_lang', lang);
+    
+    const toggleBtn = document.getElementById('langToggle');
+    if(toggleBtn) {
+        toggleBtn.textContent = lang === 'en' ? 'አማርኛ' : 'English';
+    }
+
+    document.querySelectorAll('[data-en][data-am]').forEach(el => {
+        const text = el.getAttribute(`data-${lang}`);
+        if(text) {
+            if((el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') && el.hasAttribute(`data-${lang}-placeholder`)) {
+                el.placeholder = el.getAttribute(`data-${lang}-placeholder`);
+            } else {
+                el.innerHTML = text;
+            }
+        }
+    });
+
+    document.querySelectorAll('[data-success][data-am-success]').forEach(form => {
+        const msg = form.getAttribute(`data-${lang === 'am' ? 'am-success' : 'success'}`);
+        if(msg) {
+            form.setAttribute('data-success', msg);
+        }
+    });
+}
+</script>
+</body></html>
